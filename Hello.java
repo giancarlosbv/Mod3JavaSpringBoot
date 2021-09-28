@@ -7,25 +7,28 @@ public class Hello {
         // String sentence = "Use double quotes for strings";
         // boolean choice = true;
 
-        int num1 = 5;
-        int num2 = 10; 
-        // 1. Add, subtract, multiply, and divide (quotient & remainder) two numbers and display the output
-        System.out.println(num1+num2+" addition");
-        System.out.println(num1-num2+" subtraction");
-        System.out.println(num1/num2+" division");
-        System.out.println(num1*num2+" multiplication");
-        System.out.println(num1%num2+" remainder");
+        int num1 = 13;
+        int num2 = 7;
+        // 1. Add, subtract, multiply, and divide (quotient & remainder) two numbers and
+        // display the output
+        System.out.println(num1 + num2 + " addition");
+        System.out.println(num1 - num2 + " subtraction");
+        System.out.println(num1 / num2 + " division");
+        System.out.println(num1 * num2 + " multiplication");
+        System.out.println(num1 % num2 + " remainder");
 
-        //2. Swap two numbers: Store two numbers in separate variables, display their initial values, swap them, and display them again.
+        // 2. Swap two numbers: Store two numbers in separate variables, display their
+        // initial values, swap them, and display them again.
 
         int temp = num1;
         num1 = num2;
         num2 = temp;
 
-        System.out.println(num1+"swap1"); //num1 = 10
-        System.out.println(num2+"swap2"); //num1 = 5
+        System.out.println(num1 + "swap1"); // num1 = 10
+        System.out.println(num2 + "swap2"); // num1 = 5
 
-        // 3. Display the average of five numbers: Create five separate variables holding different numbers and find the average
+        // 3. Display the average of five numbers: Create five separate variables
+        // holding different numbers and find the average
 
         int average1 = 55;
         int average2 = 45;
@@ -33,19 +36,32 @@ public class Hello {
         int average4 = 25;
         int average5 = 15;
 
-        System.out.println("Average: "+(average1+average2+average3+average4+average5)/5);
+        System.out.println("Average: " + (average1 + average2 + average3 + average4 + average5) / 5);
 
+        // 4. Write a Java program that display the larger of two integers. Store these
+        // numbers in variables.
 
-        // 4. Write a Java program that display the larger of two integers. Store these numbers in variables.
-
-           int size1 = 12;
-           int size2 = 17;
-           if (size1 > size2){
+        int size1 = 12;
+        int size2 = 17;
+        if (size1 > size2) {
             System.out.println(size1 + " is larger");
-           } else {
-               System.out.println(size2 + " is larger");
-            }
+        } else {
+            System.out.println(size2 + " is larger");
+        }
 
+        // 5. Display the largest of three numbers.
+        int big1 = 12;
+        int big2 = 17;
+        int big3 = 20;
+
+        if (big1 > big2 && big1 > big3) {
+            System.out.println(big1 + " is the largest");
+        } else if (big2 > big1 && big2 > big3) {
+            System.out.println(big2 + " is the largest");
+        } else {
+            System.out.println(big3 + " is the largest");
+
+        }
 
         // System.out.println("Hello World!!!!" + onechar);
         // System.out.println(inum);
@@ -57,11 +73,11 @@ public class Hello {
     }
 }
 
- // a = 11
-            // b = 7
-            // temp = a
-            // a = b
-            // b = temp
+// a = 11
+// b = 7
+// temp = a
+// a = b
+// b = temp
 
-            // print(a) # 7
-            // print(b) # 11
+// print(a) # 7
+// print(b) # 11
