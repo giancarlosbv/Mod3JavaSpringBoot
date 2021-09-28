@@ -63,6 +63,22 @@ public class Hello {
 
         }
 
+        // 6. Determine if a number is negative, positive, or zero. 
+        int pNum = -10;
+        // int nNum = -10;
+        // int zero = 0;
+
+        if (pNum > 0) {
+            System.out.println(pNum + " is positive");
+        } else if (pNum < 0) {
+            System.out.println(pNum + " is negative");
+        } else {
+            System.out.println((pNum + "is zero"));
+        }
+
+        
+
+
         // System.out.println("Hello World!!!!" + onechar);
         // System.out.println(inum);
         // System.out.println(fnum);
