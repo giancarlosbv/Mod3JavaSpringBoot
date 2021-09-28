@@ -25,17 +25,27 @@ public class Hello {
         System.out.println(num1+"swap1"); //num1 = 10
         System.out.println(num2+"swap2"); //num1 = 5
 
+        // 3. Display the average of five numbers: Create five separate variables holding different numbers and find the average
+
+        int average1 = 55;
+        int average2 = 45;
+        int average3 = 35;
+        int average4 = 25;
+        int average5 = 15;
+
+        System.out.println("Average: "+(average1+average2+average3+average4+average5)/5);
 
 
+        // 4. Write a Java program that display the larger of two integers. Store these numbers in variables.
 
-            // a = 11
-            // b = 7
-            // temp = a
-            // a = b
-            // b = temp
+           int size1 = 12;
+           int size2 = 17;
+           if (size1 > size2){
+            System.out.println(size1 + " is larger");
+           } else {
+               System.out.println(size2 + " is larger");
+            }
 
-            // print(a) # 7
-            // print(b) # 11
 
         // System.out.println("Hello World!!!!" + onechar);
         // System.out.println(inum);
@@ -46,3 +56,12 @@ public class Hello {
         // System.out.println(sentence);
     }
 }
+
+ // a = 11
+            // b = 7
+            // temp = a
+            // a = b
+            // b = temp
+
+            // print(a) # 7
+            // print(b) # 11
