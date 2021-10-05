@@ -63,7 +63,7 @@ public class Hello {
 
         }
 
-        // 6. Determine if a number is negative, positive, or zero. 
+        // 6. Determine if a number is negative, positive, or zero.
         int pNum = -10;
         // int nNum = -10;
         // int zero = 0;
@@ -76,16 +76,16 @@ public class Hello {
             System.out.println((pNum + "is zero"));
         }
 
+        // 7. Determine if a number is even or odd.
+        int evenOrOdd = 9;
+        if (evenOrOdd % 2 == 0) {
+            System.out.println(evenOrOdd + " is even");
+        }else {
+            System.out.println(evenOrOdd + " is odd");
+        }
+        // 8. Store a value in a variable called age. Determine if a person with the given age is eligible to vote (18 years old)
         
 
-
-        // System.out.println("Hello World!!!!" + onechar);
-        // System.out.println(inum);
-        // System.out.println(fnum);
-        // System.out.println(dnum);
-        // System.out.println(onechar);
-        // System.out.println(choice);
-        // System.out.println(sentence);
     }
 }
 
