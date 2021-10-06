@@ -1,9 +1,6 @@
 package loops;
 import java.util.Scanner;
 import java.lang.Math;
-import java.lang.*;
-import java.io.*;
-import java.util.*;
 
 public class Loops {
 	//function to check if the number is Armstrong or not
