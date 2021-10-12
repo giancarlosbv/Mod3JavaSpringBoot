@@ -88,6 +88,15 @@ package OOPConcepts;
             System.out.println("Information about person class...");
             System.out.println("----------------");
         }
+        public void display(Person obj) {
+            System.out.println("Within parameterized display...");
+            System.out.println("Name: " + obj.pname);
+        }
+        double calculate(int num) {
+            System.out.println("Calculate inside parent (Person) class");
+            return 121.33;
+        }
+
         public static void totalPerson(){
             
         }
